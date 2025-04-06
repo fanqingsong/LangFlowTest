@@ -62,7 +62,9 @@ https://gitee.com/NanGePlus/LangFlowTest
 直接将下载的文件夹中的文件拷贝到新建的项目目录中               
 
 ## 3.4 安装项目依赖          
-pip install -r requirements.txt            
+uv venv --python=3.10
+source .venv/bin/activate
+uv pip install -r requirements.txt -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple         
 每个软件包后面都指定了本次视频测试中固定的版本号           
 
 # 4、项目测试          
